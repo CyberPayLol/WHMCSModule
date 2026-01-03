@@ -103,7 +103,7 @@ function cyberpay_link($params) {
 	$comment = $params['description'];
 	$invoice = $params['invoiceid'].'-'.time();
 
-	$url = "https://api.cyberpay.lol/payment/create";
+	$url = "https://api.cyberpay.ltd/payment/create";
 
 	$data = [
 		'shop_to' => $shop_uuid,
