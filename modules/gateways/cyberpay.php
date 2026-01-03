@@ -72,8 +72,11 @@ function cyberpay_config() {
 			'FriendlyName' => 'Метод оплаты',
 			'Type' => 'dropdown',
             'Options' => array(
-                'card' => 'QIWI/Карты',
-                'crypto' => 'Криптовалюта'
+                'card' => 'RUB Карты',
+				'sbp' => 'СБП Qr',
+                'crypto' => 'Криптовалюта',
+				'cryptobot' => 'CryptoBot'
+				//актуальный список можно узнать перейдя по ссылке https://docs.cyberpay.ltd/docs/create-order/
             ),
 			'Description' => '',
 		)
